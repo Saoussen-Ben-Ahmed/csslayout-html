@@ -1,0 +1,70 @@
+/*p {*/
+body {
+  margin: 0px;
+}
+footer {
+  border-top: #ababab solid 1px;
+  padding: 32px 0 0 0;
+  font-size: 12px;
+}
+
+/*footer a {*/
+header {
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+.logo {
+  background: no-repeat;
+  width: 100px;
+  height: 100px;
+  display: block;
+  text-indent: -9999px;
+}
+/* Section brands */
+
+.brands-logos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: justify;
+  height: 107.6px;
+  width: 625.32;
+}
+
+.brands {
+  display: flex;
+}
+
+.brands h1 {
+  display: block;
+  color: #00bfa5;
+  height: 107.6px;
+  width: 321.75px;
+  /* line-height: ; */
+  margin: 7px 0 9px 0;
+  padding: 0 26px 0 0;
+}
+
+/* Section offices */
+
+.offices-slider {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 20px 0 20px;
+}
+.offices h1 {
+  color: #00bac5;
+  justify-content: center;
+  font-size: 30px;
+  line-height: 39px;
+  height: 78px;
+}
+
+.offices p {
+  height: 72px;
+  margin: 22px 0 22px 0;
+  text-align: center;
+  color: #747474;
+}
